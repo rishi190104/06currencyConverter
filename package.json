@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rishi190104.github.io/Currency-Converter",
   "name": "06currencyconverter",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
   },
   "dependencies": {
     "cors": "^2.8.5",
